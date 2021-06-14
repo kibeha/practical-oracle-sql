@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="259B5A5F-DDDD-D255-8F3B-1F8638A01A57" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="WEB_COUNTER_HIST">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>WEB_COUNTER_HIST</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:45 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="APP_ID" id="DDFAC1B7-E82B-DD74-56DF-8367BFB8B7C4">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>WEB_COUNTER_HIST</sourceObjSchema>
+<sourceObjName>APP_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB6640EA-8A42-54C0-A8B2-116AA2A76CED" referredColumn="3AAA383A-12FE-F1EC-457C-43583F09451C"/>
+</associations>
+</Column>
+<Column name="PAGE_NO" id="6132BAA8-B518-942C-41BA-E7AB91ABDC12">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>WEB_COUNTER_HIST</sourceObjSchema>
+<sourceObjName>PAGE_NO</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB6640EA-8A42-54C0-A8B2-116AA2A76CED" referredColumn="F01970BD-AD87-8E86-F875-F87C51D5C19A"/>
+</associations>
+</Column>
+<Column name="DAY" id="976FDE77-BFB4-C866-64AC-E87F7B14FA0D">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>WEB_COUNTER_HIST</sourceObjSchema>
+<sourceObjName>DAY</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTER" id="37BAABC2-ABA9-6619-689D-9FE142847D93">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>WEB_COUNTER_HIST</sourceObjSchema>
+<sourceObjName>COUNTER</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="223F60FC-893E-D98D-3594-3CAB06047533" name="WEB_COUNTER_HIST_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>WEB_COUNTER_HIST_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:02 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDFAC1B7-E82B-DD74-56DF-8367BFB8B7C4"/>
+<colUsage columnID="6132BAA8-B518-942C-41BA-E7AB91ABDC12"/>
+<colUsage columnID="976FDE77-BFB4-C866-64AC-E87F7B14FA0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08CF6EBB-B630-1675-A307-D7CE5335328C" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="WEB_COUNTER_HIST_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>WEB_COUNTER_HIST_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDFAC1B7-E82B-DD74-56DF-8367BFB8B7C4"/>
+<colUsage columnID="6132BAA8-B518-942C-41BA-E7AB91ABDC12"/>
+<colUsage columnID="976FDE77-BFB4-C866-64AC-E87F7B14FA0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BDAD2B3-EFA8-CB2B-A728-0629DA1F30AB" name="WEB_COUNTER_HIST_PAGE_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDFAC1B7-E82B-DD74-56DF-8367BFB8B7C4"/>
+<colUsage columnID="6132BAA8-B518-942C-41BA-E7AB91ABDC12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B12B430-5E8B-8A02-EB7D-CB27C85BCEE1" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="EMPLOYEES">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>EMPLOYEES</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:36:40 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7D9DF6E0-55AD-83A9-2068-FF15987B6C99">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="042C87AB-0A1C-DEA0-209B-579CE03B73A9">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="D76B205A-4C5A-F0E5-C21F-5355A978B326">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPERVISOR_ID" id="D877323C-46B3-E410-7BD2-C9FFF08FA64A">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>SUPERVISOR_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8288A0E0-8D7F-9782-7793-513D7FAA4C2F" referredColumn="7D9DF6E0-55AD-83A9-2068-FF15987B6C99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38CDED7B-543B-38C3-2263-86AC3E3CF6B8" name="EMPLOYEES_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>EMPLOYEES_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:01 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D9DF6E0-55AD-83A9-2068-FF15987B6C99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E916964F-9C32-B833-C19F-DBC83D828BE8" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="EMPLOYEES_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>EMPLOYEES_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D9DF6E0-55AD-83A9-2068-FF15987B6C99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA822CFF-A7CC-6CFC-5188-F6A9CEA77473" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="EMPLOYEES_SUPERVISOR_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>EMPLOYEES_SUPERVISOR_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D877323C-46B3-E410-7BD2-C9FFF08FA64A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F36EF9D-7D71-FA0D-A1BC-630FCAE84893" name="EMPLOYEES_SUPERVISOR_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D877323C-46B3-E410-7BD2-C9FFF08FA64A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD697CC3-83E5-4B28-AAFE-8E7556CF42B8" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="ORDERS">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>ORDERS</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:02 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C554FF2D-6FCD-3FB9-1C4C-BD8DFFDD900D">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_ID" id="A014F23B-C30D-A1B4-8290-23158A4CEA49">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14FDC2CD-B4A6-E474-24E5-9DE7BBC7CD31" referredColumn="46F73154-E75A-9499-3434-B993B2CA5FB0"/>
+</associations>
+</Column>
+<Column name="ORDERED" id="FF0563C6-96D7-BB2F-9D8F-13603C906EFE">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDERED</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DELIVERY" id="0772ABE4-F8B1-C6C0-C16B-9733707C83CE">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>DELIVERY</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C577C92F-A611-C9B8-AD68-E4818E8D5FEA" name="ORDER_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>ORDER_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:01 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C554FF2D-6FCD-3FB9-1C4C-BD8DFFDD900D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3000585C-A667-76CC-4674-D65767B76DDE" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="ORDER_CUSTOMER_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>ORDER_CUSTOMER_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A014F23B-C30D-A1B4-8290-23158A4CEA49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F87A773-3FD2-5603-3840-A5DCCEC136E6" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="ORDER_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>ORDER_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C554FF2D-6FCD-3FB9-1C4C-BD8DFFDD900D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F6C96A2-CB00-F4BB-A498-FFF76D4175C7" name="ORDER_CUSTOMER_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A014F23B-C30D-A1B4-8290-23158A4CEA49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

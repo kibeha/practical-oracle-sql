@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PACKAGING_RELATIONS" directorySegmentName="seg_0" id="3E2523AD-EEFF-C205-83D3-199C5C8A33F2">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:08 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<schemaObject>973881B1-88D0-CECF-5FAE-879DE82F9CF4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>022C7AFD-7682-8BEB-9FAF-7B8155EB6B9F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CONTAINS_ID" id="740D14F0-3B71-771D-489E-F64310D6C84B">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QTY" id="A2C2A356-160E-5A62-4E3E-FE4117D4582B">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PACKAGING_ID" id="C7B3822D-36B9-8657-C37E-FEBB59994FFA">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PACKING_RELATIONS_CHILD_FK_IX" id="D893D8CE-8154-B872-A2FA-34DD2DB5E6C2">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<schemaObject>973881B1-88D0-CECF-5FAE-879DE82F9CF4</schemaObject>
+<segment>1B03546C-8B08-2EB4-C696-BAAD4793855F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PACKAGING_RELATIONS_PK" id="E3728271-E5C2-3693-CF8B-482DE496BBFC">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<schemaObject>973881B1-88D0-CECF-5FAE-879DE82F9CF4</schemaObject>
+<segment>1B03546C-8B08-2EB4-C696-BAAD4793855F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PACKING_RELATIONS_PARENT_FK" id="BE57E504-E823-222E-B558-7DFBF351B9B1">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PACKING_RELATIONS_CHILD_FK" id="EC95CDF6-C131-05CC-F3ED-344983E5060B">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PACKAGING_RELATIONS_PK" id="23A3742A-9A39-DBAE-FAF4-E9BD758BC922">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:01 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<segment>1B03546C-8B08-2EB4-C696-BAAD4793855F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+<existingIndex>E3728271-E5C2-3693-CF8B-482DE496BBFC</existingIndex>
+<indexSegment>1B03546C-8B08-2EB4-C696-BAAD4793855F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D3082AB-1A5D-C0B4-5645-0E706AF8D6F1" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PICKING_LIST">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LIST</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:13 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7CCA4D6D-F113-6C6B-0DE8-1BC268C1FA2F">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LIST</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED" id="999AECE7-180D-8B9C-3C06-59EADB372E47">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LIST</sourceObjSchema>
+<sourceObjName>CREATED</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PICKER_EMP_ID" id="9B81DFAF-5AC2-43AA-C183-61CBA324330C">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LIST</sourceObjSchema>
+<sourceObjName>PICKER_EMP_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3DF5A44-998C-0335-DF38-DFF5D0CBB8EF" referredColumn="7D9DF6E0-55AD-83A9-2068-FF15987B6C99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFB041DA-E8F7-CA94-DB75-2F599B4FBA9C" name="PICKING_LIST_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LIST_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:02 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CCA4D6D-F113-6C6B-0DE8-1BC268C1FA2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D654A02A-EE50-ED7C-12B3-C7D350CC8991" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PICKING_LIST_EMP_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LIST_EMP_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B81DFAF-5AC2-43AA-C183-61CBA324330C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98175B7F-651F-F744-F3EB-68EC55BB7867" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PICKING_LIST_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LIST_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CCA4D6D-F113-6C6B-0DE8-1BC268C1FA2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B6AEF18-22C2-B36E-0685-E439842492EC" name="PICKING_LIST_EMP_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B81DFAF-5AC2-43AA-C183-61CBA324330C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

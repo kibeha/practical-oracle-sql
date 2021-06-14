@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="STOCK" directorySegmentName="seg_0" id="3BEDBE4F-1CDC-3020-00F3-5DA6214EEC7D">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:37 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<schemaObject>973881B1-88D0-CECF-5FAE-879DE82F9CF4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>022C7AFD-7682-8BEB-9FAF-7B8155EB6B9F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SYMBOL" id="433FA562-CA18-493C-A4C4-EC8E0B9352EF">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPANY" id="8E3CD754-5360-D039-EB2F-041DDDFE597D">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STOCK_PK" id="E19A6D2F-CC3B-CDCA-06E1-D5133B61B222">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<schemaObject>973881B1-88D0-CECF-5FAE-879DE82F9CF4</schemaObject>
+<segment>1B03546C-8B08-2EB4-C696-BAAD4793855F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STOCK_PK" id="61C5FDBB-A34C-CE93-335D-4CD73129FD4D">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:02 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<segment>1B03546C-8B08-2EB4-C696-BAAD4793855F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+<existingIndex>E19A6D2F-CC3B-CDCA-06E1-D5133B61B222</existingIndex>
+<indexSegment>1B03546C-8B08-2EB4-C696-BAAD4793855F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="237140A6-B404-5F50-F2AC-7B66B2898261" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="WEB_PAGES">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>WEB_PAGES</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:54 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="APP_ID" id="3AAA383A-12FE-F1EC-457C-43583F09451C">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>WEB_PAGES</sourceObjSchema>
+<sourceObjName>APP_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C29700CC-B15C-27A3-1C99-0A7244A920B9" referredColumn="37400E16-53F6-4321-643D-0F5142B53984"/>
+</associations>
+</Column>
+<Column name="PAGE_NO" id="F01970BD-AD87-8E86-F875-F87C51D5C19A">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>WEB_PAGES</sourceObjSchema>
+<sourceObjName>PAGE_NO</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRIENDLY_URL" id="4B23E678-ECA5-DB8C-2572-EBFEE7ADD740">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>WEB_PAGES</sourceObjSchema>
+<sourceObjName>FRIENDLY_URL</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD254389-AAE7-E482-1C4C-0AFE25287733" name="WEB_PAGES_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>WEB_PAGES_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:02 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AAA383A-12FE-F1EC-457C-43583F09451C"/>
+<colUsage columnID="F01970BD-AD87-8E86-F875-F87C51D5C19A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="746B49E3-75BD-CD5F-33B9-C40EA16BB6F7" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="WEB_PAGES_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>WEB_PAGES_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AAA383A-12FE-F1EC-457C-43583F09451C"/>
+<colUsage columnID="F01970BD-AD87-8E86-F875-F87C51D5C19A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="674DA594-8FE6-253A-ECDC-4D049D148846" name="WEB_PAGES_APP_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AAA383A-12FE-F1EC-457C-43583F09451C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

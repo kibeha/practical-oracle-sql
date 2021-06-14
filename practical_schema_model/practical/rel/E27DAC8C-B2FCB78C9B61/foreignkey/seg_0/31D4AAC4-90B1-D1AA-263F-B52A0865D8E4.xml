@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="31D4AAC4-90B1-D1AA-263F-B52A0865D8E4" containerWithKeyObject="7DAF6FF6-9740-9048-B7B6-5B98E7F5D88D" localFKIndex="485B613F-7826-B777-E930-B3F61495008A" name="MONTHLY_BUDGET_PRODUCT_FK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>MONTHLY_BUDGET_PRODUCT_FK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<referredTableLongName>PRACTICAL.PRODUCTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>23E0EEE7-457C-F990-BB93-C819DCD95F0C</referredTableID>
+<keyObject>49928270-753B-0FE1-7556-42984CFEFDB6</keyObject>
+<referredKeyID>49928270-753B-0FE1-7556-42984CFEFDB6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

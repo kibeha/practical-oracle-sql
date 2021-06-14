@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="WEB_PAGE_VISITS" directorySegmentName="seg_0" id="2E0C06F2-2BF9-AE71-E2BF-2CE63A03E445">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:57 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<schemaObject>973881B1-88D0-CECF-5FAE-879DE82F9CF4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>022C7AFD-7682-8BEB-9FAF-7B8155EB6B9F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PAGE_NO" id="0426D4F7-5C95-DB94-7864-3C54117E5D54">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISIT_TIME" id="0F1C509A-FA0E-8CC5-E07F-FA50C3AF9514">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLIENT_IP" id="26FC5D11-9EFA-64D2-B591-CCC823676699">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APP_ID" id="70AB495D-C09B-D531-3D1A-F5B2A7C083AC">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="WEB_PAGE_VISITS_PAGE_FK_IX" id="7149C946-5325-D8CC-D5D3-BD08F875892C">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<schemaObject>973881B1-88D0-CECF-5FAE-879DE82F9CF4</schemaObject>
+<segment>1B03546C-8B08-2EB4-C696-BAAD4793855F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="WEB_PAGE_VISITS_PAGE_FK" id="8C165EEE-3BE9-E37C-F806-999E348ED861">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

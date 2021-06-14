@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E2523AD-EEFF-C205-83D3-199C5C8A33F2" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PACKAGING_RELATIONS">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PACKAGING_RELATIONS</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:08 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PACKAGING_ID" id="C7B3822D-36B9-8657-C37E-FEBB59994FFA">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PACKAGING_RELATIONS</sourceObjSchema>
+<sourceObjName>PACKAGING_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15CCC3E3-A72E-7838-42FD-9F5BA1936457" referredColumn="77394294-F76E-5DD4-4038-F7A62B64C028"/>
+</associations>
+</Column>
+<Column name="CONTAINS_ID" id="740D14F0-3B71-771D-489E-F64310D6C84B">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PACKAGING_RELATIONS</sourceObjSchema>
+<sourceObjName>CONTAINS_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E565BDE-AC68-80ED-1282-F1B6F1FFD33C" referredColumn="77394294-F76E-5DD4-4038-F7A62B64C028"/>
+</associations>
+</Column>
+<Column name="QTY" id="A2C2A356-160E-5A62-4E3E-FE4117D4582B">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PACKAGING_RELATIONS</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23A3742A-9A39-DBAE-FAF4-E9BD758BC922" name="PACKAGING_RELATIONS_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PACKAGING_RELATIONS_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:01 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7B3822D-36B9-8657-C37E-FEBB59994FFA"/>
+<colUsage columnID="740D14F0-3B71-771D-489E-F64310D6C84B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3728271-E5C2-3693-CF8B-482DE496BBFC" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PACKAGING_RELATIONS_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PACKAGING_RELATIONS_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7B3822D-36B9-8657-C37E-FEBB59994FFA"/>
+<colUsage columnID="740D14F0-3B71-771D-489E-F64310D6C84B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D893D8CE-8154-B872-A2FA-34DD2DB5E6C2" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PACKING_RELATIONS_CHILD_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PACKING_RELATIONS_CHILD_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="740D14F0-3B71-771D-489E-F64310D6C84B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC95CDF6-C131-05CC-F3ED-344983E5060B" name="PACKING_RELATIONS_CHILD_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="740D14F0-3B71-771D-489E-F64310D6C84B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE57E504-E823-222E-B558-7DFBF351B9B1" name="PACKING_RELATIONS_PARENT_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7B3822D-36B9-8657-C37E-FEBB59994FFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

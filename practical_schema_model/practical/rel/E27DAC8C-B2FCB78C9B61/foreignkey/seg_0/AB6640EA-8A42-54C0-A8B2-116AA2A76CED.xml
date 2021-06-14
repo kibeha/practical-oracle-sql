@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB6640EA-8A42-54C0-A8B2-116AA2A76CED" containerWithKeyObject="259B5A5F-DDDD-D255-8F3B-1F8638A01A57" localFKIndex="4BDAD2B3-EFA8-CB2B-A728-0629DA1F30AB" name="WEB_COUNTER_HIST_PAGE_FK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>WEB_COUNTER_HIST_PAGE_FK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<referredTableLongName>PRACTICAL.WEB_PAGES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>237140A6-B404-5F50-F2AC-7B66B2898261</referredTableID>
+<keyObject>FD254389-AAE7-E482-1C4C-0AFE25287733</keyObject>
+<referredKeyID>FD254389-AAE7-E482-1C4C-0AFE25287733</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>APP_ID,PAGE_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

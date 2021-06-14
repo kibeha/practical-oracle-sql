@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF11FAC8-2ED0-B29C-8A9F-FC7BFEEEF082" containerWithKeyObject="FCC58D08-54DF-BD6F-2F3F-B28D15905EA1" localFKIndex="994F2812-C689-DB4A-3B3F-50A46AF08364" name="PURCHASES_BREWERY_FK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PURCHASES_BREWERY_FK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<referredTableLongName>PRACTICAL.BREWERIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A0DC5625-5663-501A-2EAD-47F4F27BD207</referredTableID>
+<keyObject>E8A02BD1-F157-541F-FC90-965C82C51AC9</keyObject>
+<referredKeyID>E8A02BD1-F157-541F-FC90-965C82C51AC9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

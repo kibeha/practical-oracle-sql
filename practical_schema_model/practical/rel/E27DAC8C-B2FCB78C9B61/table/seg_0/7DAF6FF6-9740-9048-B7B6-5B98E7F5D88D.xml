@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DAF6FF6-9740-9048-B7B6-5B98E7F5D88D" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="MONTHLY_BUDGET">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>MONTHLY_BUDGET</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:36:52 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="4EC43BEC-EC61-DA94-CF8F-580768288A20">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>MONTHLY_BUDGET</sourceObjSchema>
+<sourceObjName>PRODUCT_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31D4AAC4-90B1-D1AA-263F-B52A0865D8E4" referredColumn="28B6BDC8-7604-FDDC-20EC-F2255582695B"/>
+</associations>
+</Column>
+<Column name="MTH" id="B9CFB71F-51AF-7133-D807-E0AE783BC0E1">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>MONTHLY_BUDGET</sourceObjSchema>
+<sourceObjName>MTH</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<constraintName>MONTHLY_BUDGET_MTH_VALID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="&lt;br/&gt;      mth = trunc(mth, &apos;MM&apos;)&lt;br/&gt;   "/>
+<implementationDef dbType="Oracle Database 12cR2" definition="&lt;br/&gt;      mth = trunc(mth, &apos;MM&apos;)&lt;br/&gt;   "/>
+</checkConstraint>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTY" id="D34726C5-613E-D380-BE31-3463D9933E47">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>MONTHLY_BUDGET</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0830CE25-D3C4-43F0-D231-91BD2CC68D80" name="MONTHLY_BUDGET_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>MONTHLY_BUDGET_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:01 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EC43BEC-EC61-DA94-CF8F-580768288A20"/>
+<colUsage columnID="B9CFB71F-51AF-7133-D807-E0AE783BC0E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08471440-F4D6-5518-815F-966E13B2326A" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="MONTHLY_BUDGET_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>MONTHLY_BUDGET_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EC43BEC-EC61-DA94-CF8F-580768288A20"/>
+<colUsage columnID="B9CFB71F-51AF-7133-D807-E0AE783BC0E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="485B613F-7826-B777-E930-B3F61495008A" name="MONTHLY_BUDGET_PRODUCT_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EC43BEC-EC61-DA94-CF8F-580768288A20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8233CDB3-CD9F-7955-C86D-8F4AE142E19D" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="GENDER_DIM">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>GENDER_DIM</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:36:43 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LETTER" id="B4B549FC-3116-017C-E732-E3E4D87D463A">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>GENDER_DIM</sourceObjSchema>
+<sourceObjName>LETTER</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="C3CD9EF8-9541-0795-C541-9BC8921CDE2C">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>GENDER_DIM</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08E2DF22-D440-B70D-B884-0E31D9B11CD1" name="GENDER_DIM_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>GENDER_DIM_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:01 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4B549FC-3116-017C-E732-E3E4D87D463A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCBB39C4-4658-C108-C133-31AF64A52CA9" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="GENDER_DIM_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>GENDER_DIM_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4B549FC-3116-017C-E732-E3E4D87D463A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01A16A98-430A-D5F4-E027-319047653E3B" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PICKING_LINE">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LINE</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:10 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PICKLIST_ID" id="9BF1BBB0-02D6-9E3D-8C41-C504EB370B00">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LINE</sourceObjSchema>
+<sourceObjName>PICKLIST_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED723B10-5C94-3D49-771A-B7C3C1D66747" referredColumn="7CCA4D6D-F113-6C6B-0DE8-1BC268C1FA2F"/>
+</associations>
+</Column>
+<Column name="LINE_NO" id="ACF212C9-ED5A-0AB3-5090-071AD2E906C8">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LINE</sourceObjSchema>
+<sourceObjName>LINE_NO</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_ID" id="5EFD541C-8D17-17C0-D272-D25217DD668B">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LINE</sourceObjSchema>
+<sourceObjName>LOCATION_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8C3E71F-102C-39C8-44AA-F0E817DAE5EE" referredColumn="E66BC08F-35BD-7E2C-6B27-74F9977F0593"/>
+</associations>
+</Column>
+<Column name="ORDER_ID" id="932ED5DB-E020-0CCD-CE44-8A71B42B0EAB">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LINE</sourceObjSchema>
+<sourceObjName>ORDER_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7449953D-01B0-F86F-72FE-41C6E03AC1EE" referredColumn="C554FF2D-6FCD-3FB9-1C4C-BD8DFFDD900D"/>
+</associations>
+</Column>
+<Column name="PRODUCT_ID" id="F7C89CFA-7011-FCC2-1A23-52CBC2AF7DF6">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LINE</sourceObjSchema>
+<sourceObjName>PRODUCT_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0533C4F2-0715-4536-5DEF-1B42ABEC4686" referredColumn="28B6BDC8-7604-FDDC-20EC-F2255582695B"/>
+</associations>
+</Column>
+<Column name="QTY" id="22D22E47-B3FD-76D4-0810-102863240FF4">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LINE</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D5AF380-7356-8FE7-D634-D7E096B2A01D" name="PICKING_LINE_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LINE_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:02 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BF1BBB0-02D6-9E3D-8C41-C504EB370B00"/>
+<colUsage columnID="ACF212C9-ED5A-0AB3-5090-071AD2E906C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64FCDFD7-5B98-078A-FE4C-5DE7EBBC5392" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PICKING_LINE_LOCATION_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LINE_LOCATION_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EFD541C-8D17-17C0-D272-D25217DD668B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1A33601-1B0D-2C97-560C-C7E6EBABADB8" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PICKING_LINE_ORDER_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LINE_ORDER_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="932ED5DB-E020-0CCD-CE44-8A71B42B0EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2556CB96-E8FA-C112-72F4-78052932B9AA" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PICKING_LINE_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LINE_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BF1BBB0-02D6-9E3D-8C41-C504EB370B00"/>
+<colUsage columnID="ACF212C9-ED5A-0AB3-5090-071AD2E906C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5AC1F22-F6C3-8531-E3DF-12327148258C" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PICKING_LINE_PRODUCT_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LINE_PRODUCT_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7C89CFA-7011-FCC2-1A23-52CBC2AF7DF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96BB7006-E1AC-DF88-34D3-282FF3E1C197" name="PICKING_LINE_LOCATION_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EFD541C-8D17-17C0-D272-D25217DD668B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCBCEBF3-5C80-0A93-B9FD-6E001E946EAC" name="PICKING_LINE_ORDER_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="932ED5DB-E020-0CCD-CE44-8A71B42B0EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61FBA2A9-D107-22AD-B4E2-A46201FC4A1A" name="PICKING_LINE_PICKING_LIST_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BF1BBB0-02D6-9E3D-8C41-C504EB370B00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFD5BFFE-E863-50DB-2A35-A532F8BFEC92" name="PICKING_LINE_PRODUCT_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7C89CFA-7011-FCC2-1A23-52CBC2AF7DF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

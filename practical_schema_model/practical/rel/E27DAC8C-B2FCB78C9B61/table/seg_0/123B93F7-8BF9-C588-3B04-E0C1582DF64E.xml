@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="123B93F7-8BF9-C588-3B04-E0C1582DF64E" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PICKING_LOG">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LOG</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:16 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PICKLIST_ID" id="5089FC1F-DC97-1D00-42DE-F7B54EB15FA0">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LOG</sourceObjSchema>
+<sourceObjName>PICKLIST_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C94CD1FD-4D1C-F816-CB96-ACE5868D16F5" referredColumn="9BF1BBB0-02D6-9E3D-8C41-C504EB370B00"/>
+<colAssociation fkAssociation="AA585F3B-EC94-1C54-8EB3-08389EE127AC" referredColumn="7CCA4D6D-F113-6C6B-0DE8-1BC268C1FA2F"/>
+</associations>
+</Column>
+<Column name="LOG_TIME" id="6969D659-AD2F-0F27-1089-A699AD57F832">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LOG</sourceObjSchema>
+<sourceObjName>LOG_TIME</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVITY" id="0480D6CF-0AE2-8A58-350C-70E3F52D1E12">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LOG</sourceObjSchema>
+<sourceObjName>ACTIVITY</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<constraintName>SYS_C0018463</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;D&apos;" description=""/>
+<valueDef value="&apos;P&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_ID" id="75CAC084-7E8F-7CC7-48DE-8156C891A1D9">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LOG</sourceObjSchema>
+<sourceObjName>LOCATION_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5387DBAD-AF88-EAD1-009B-B80255CEE724" referredColumn="E66BC08F-35BD-7E2C-6B27-74F9977F0593"/>
+</associations>
+</Column>
+<Column name="PICKLINE_NO" id="0DD31AA3-F129-A61C-84C2-8EC461E792DF">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PICKING_LOG</sourceObjSchema>
+<sourceObjName>PICKLINE_NO</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C94CD1FD-4D1C-F816-CB96-ACE5868D16F5" referredColumn="ACF212C9-ED5A-0AB3-5090-071AD2E906C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BE49B90-6E77-B221-5939-28F522DAC680" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PICKING_LOG_LOCATION_FK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LOG_LOCATION_FK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75CAC084-7E8F-7CC7-48DE-8156C891A1D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="272302B4-4B7D-3DA1-B5B5-BAA80B3D0CB6" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PICKING_LOG_PICKING_LINE_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LOG_PICKING_LINE_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5089FC1F-DC97-1D00-42DE-F7B54EB15FA0"/>
+<colUsage columnID="0DD31AA3-F129-A61C-84C2-8EC461E792DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D21B523-E4A2-BDEF-04B2-B1FBC1A1DC0F" name="PICKING_LOG_LOCATION_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75CAC084-7E8F-7CC7-48DE-8156C891A1D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3C5E3F5-EE18-2DF3-6615-9185A4E6F6BC" name="PICKING_LOG_PICKING_LINE_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5089FC1F-DC97-1D00-42DE-F7B54EB15FA0"/>
+<colUsage columnID="0DD31AA3-F129-A61C-84C2-8EC461E792DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34568C30-DAC6-B0BC-9B7D-51A7D4AC5AA3" name="PICKING_LOG_PICKING_LIST_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5089FC1F-DC97-1D00-42DE-F7B54EB15FA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="PICKING_LOG_PICKING_LINE_CK" directorySegmentName="seg_0" id="D631A60F-646C-D419-2DE7-A6A8C94A396C">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LOG_PICKING_LINE_CK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:02 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<rule>not (activity = &apos;P&apos; and pickline_no is null)</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

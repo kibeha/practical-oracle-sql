@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MONTHLY_SALES" directorySegmentName="seg_0" id="59A50753-F8A2-6944-C643-EE286B7A1AA9">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:36:55 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<schemaObject>973881B1-88D0-CECF-5FAE-879DE82F9CF4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>022C7AFD-7682-8BEB-9FAF-7B8155EB6B9F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRODUCT_ID" id="9FD06F12-8037-EA6C-2494-5BB134AFCC86">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QTY" id="BBB447AC-BAD9-940D-32F6-863143E64423">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MTH" id="EA7DFFC7-21D7-AD7F-F152-8FF2E096AC55">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MONTHLY_SALES_PK" id="38403F9F-4D4B-C4AF-2575-7DB9CD98BC59">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<schemaObject>973881B1-88D0-CECF-5FAE-879DE82F9CF4</schemaObject>
+<segment>1B03546C-8B08-2EB4-C696-BAAD4793855F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MONTHLY_SALES_PRODUCT_FK" id="219E9F45-7B1A-D227-2B2B-411E8D180F1C">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MONTHLY_SALES_PK" id="C842AB01-5F93-3620-7B31-5AB58817B236">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:01 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<segment>1B03546C-8B08-2EB4-C696-BAAD4793855F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+<existingIndex>38403F9F-4D4B-C4AF-2575-7DB9CD98BC59</existingIndex>
+<indexSegment>1B03546C-8B08-2EB4-C696-BAAD4793855F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

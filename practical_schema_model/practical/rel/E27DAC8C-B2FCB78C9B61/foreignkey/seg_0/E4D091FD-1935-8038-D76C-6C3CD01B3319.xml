@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4D091FD-1935-8038-D76C-6C3CD01B3319" containerWithKeyObject="A3754152-A1E8-63AB-851C-3332DC63E335" localFKIndex="D7ECBA6A-D061-C77A-A107-6C0EFBDF575E" name="INVENTORY_PURCHASE_FK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>INVENTORY_PURCHASE_FK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<referredTableLongName>PRACTICAL.PURCHASES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FCC58D08-54DF-BD6F-2F3F-B28D15905EA1</referredTableID>
+<keyObject>9444E225-E610-1E8F-7ECC-2983479FE796</keyObject>
+<referredKeyID>9444E225-E610-1E8F-7ECC-2983479FE796</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

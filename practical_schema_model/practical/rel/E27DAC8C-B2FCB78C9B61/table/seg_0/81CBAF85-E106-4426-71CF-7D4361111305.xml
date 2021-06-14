@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81CBAF85-E106-4426-71CF-7D4361111305" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PRODUCT_ALCOHOL">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PRODUCT_ALCOHOL</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:19 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="F542AB3D-91E7-5B33-CE4E-DC5E41CC7C89">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRODUCT_ALCOHOL</sourceObjSchema>
+<sourceObjName>PRODUCT_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78CC40F5-A746-6668-6A2E-8B58ABC7AD4B" referredColumn="28B6BDC8-7604-FDDC-20EC-F2255582695B"/>
+</associations>
+</Column>
+<Column name="SALES_VOLUME" id="1F7BB6A9-9379-B4BE-5A2C-D83C6235F542">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRODUCT_ALCOHOL</sourceObjSchema>
+<sourceObjName>SALES_VOLUME</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABV" id="4A6C3CBC-21D1-5039-D94E-4B90AAE800B8">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRODUCT_ALCOHOL</sourceObjSchema>
+<sourceObjName>ABV</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC30AFD7-A4A4-F1E3-825D-D07E873F4EB9" name="PRODUCT_ALCOHOL_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PRODUCT_ALCOHOL_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:02 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F542AB3D-91E7-5B33-CE4E-DC5E41CC7C89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E6138E6-DBE3-5819-7391-B730D3233383" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PRODUCT_ALCOHOL_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PRODUCT_ALCOHOL_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F542AB3D-91E7-5B33-CE4E-DC5E41CC7C89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DB7C023-BB6C-7BF5-5079-793E7BB9EE22" name="PRODUCT_ALCOHOL_PRODUCT_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F542AB3D-91E7-5B33-CE4E-DC5E41CC7C89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

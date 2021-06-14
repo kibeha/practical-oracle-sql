@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A6DB97E-A10A-8A59-3BE9-1E5439DBC660" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="EMP_HIRE_PERIODS">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>EMP_HIRE_PERIODS</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:36:37 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_ID" id="704A2553-F712-6FD6-1ED8-4A49276400BB">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>EMP_HIRE_PERIODS</sourceObjSchema>
+<sourceObjName>EMP_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D5DDD58-7541-48E6-0E7D-DDBFBE70877E" referredColumn="7D9DF6E0-55AD-83A9-2068-FF15987B6C99"/>
+</associations>
+</Column>
+<Column name="START_DATE" id="BF2CF7D2-8BDF-A31B-007F-7E68AA713775">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>EMP_HIRE_PERIODS</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="75A858D0-2917-7D39-D864-67630B990268">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>EMP_HIRE_PERIODS</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="5B97A77E-B773-4585-6785-0DF86B5F5D66">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>EMP_HIRE_PERIODS</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="942364DD-1E71-6A92-4182-671AD953A3EC" name="EMP_HIRE_PERIODS_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>EMP_HIRE_PERIODS_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:01 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="704A2553-F712-6FD6-1ED8-4A49276400BB"/>
+<colUsage columnID="BF2CF7D2-8BDF-A31B-007F-7E68AA713775"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B484D48-A1EE-0ED7-C6F7-9810C8356C5B" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="EMP_HIRE_PERIODS_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>EMP_HIRE_PERIODS_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="704A2553-F712-6FD6-1ED8-4A49276400BB"/>
+<colUsage columnID="BF2CF7D2-8BDF-A31B-007F-7E68AA713775"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6269659C-9E61-1354-38F8-848D242FAFF6" name="EMP_HIRE_PERIODS_EMP_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="704A2553-F712-6FD6-1ED8-4A49276400BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<validTimeDimensions>
+<validTimeDimension class="oracle.dbtools.crest.model.design.relational.ValidTimeDimension" name="EMPLOYED_IN" directorySegmentName="seg_0" id="1DD0610C-D919-9DDA-67A3-6448867E6BDF">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>EMP_HIRE_PERIODS</sourceObjSchema>
+<sourceObjName>EMPLOYED_IN</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<endTimeColumn>75A858D0-2917-7D39-D864-67630B990268</endTimeColumn>
+<startTimeColumn>BF2CF7D2-8BDF-A31B-007F-7E68AA713775</startTimeColumn>
+</validTimeDimension>
+</validTimeDimensions>
+</Table>

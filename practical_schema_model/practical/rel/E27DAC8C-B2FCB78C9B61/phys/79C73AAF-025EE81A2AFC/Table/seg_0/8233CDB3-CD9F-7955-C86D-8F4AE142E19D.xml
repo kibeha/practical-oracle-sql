@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="GENDER_DIM" directorySegmentName="seg_0" id="8233CDB3-CD9F-7955-C86D-8F4AE142E19D">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:36:43 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<schemaObject>973881B1-88D0-CECF-5FAE-879DE82F9CF4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>022C7AFD-7682-8BEB-9FAF-7B8155EB6B9F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LETTER" id="B4B549FC-3116-017C-E732-E3E4D87D463A">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="C3CD9EF8-9541-0795-C541-9BC8921CDE2C">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="GENDER_DIM_PK" id="FCBB39C4-4658-C108-C133-31AF64A52CA9">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<schemaObject>973881B1-88D0-CECF-5FAE-879DE82F9CF4</schemaObject>
+<segment>1B03546C-8B08-2EB4-C696-BAAD4793855F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GENDER_DIM_PK" id="08E2DF22-D440-B70D-B884-0E31D9B11CD1">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:01 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<segment>1B03546C-8B08-2EB4-C696-BAAD4793855F</segment>
+<tableSpace>596E4625-C830-3AAE-16E2-B86ED0090A73</tableSpace>
+<existingIndex>FCBB39C4-4658-C108-C133-31AF64A52CA9</existingIndex>
+<indexSegment>1B03546C-8B08-2EB4-C696-BAAD4793855F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64B6C811-9766-5F86-75CE-6564353122BF" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="CONWAY_GEN_ZERO">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>CONWAY_GEN_ZERO</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:36:25 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="X" id="8137584F-2634-A963-C26A-8C4513636A55">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>CONWAY_GEN_ZERO</sourceObjSchema>
+<sourceObjName>X</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Y" id="00A174CB-ACAE-DCB9-808F-45728BCF5FE2">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>CONWAY_GEN_ZERO</sourceObjSchema>
+<sourceObjName>Y</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALIVE" id="A56D745B-4218-541A-DEA5-6D0A28C3FD44">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>CONWAY_GEN_ZERO</sourceObjSchema>
+<sourceObjName>ALIVE</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<constraintName>SYS_C0018326</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5274FA9-1EE8-5E27-DFB4-ECA5A8C0EFC5" name="CONWAY_GEN_ZERO_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>CONWAY_GEN_ZERO_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:01 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8137584F-2634-A963-C26A-8C4513636A55"/>
+<colUsage columnID="00A174CB-ACAE-DCB9-808F-45728BCF5FE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00CB42C4-9C57-9893-0B46-AA944C5682A5" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="CONWAY_GEN_ZERO_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>CONWAY_GEN_ZERO_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8137584F-2634-A963-C26A-8C4513636A55"/>
+<colUsage columnID="00A174CB-ACAE-DCB9-808F-45728BCF5FE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

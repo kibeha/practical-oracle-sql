@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F55E95AB-32C5-D71A-D919-196D61907ED3" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PRODUCT_GROUPS">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PRODUCT_GROUPS</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:21 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="2DE515ED-1CD8-0988-F5DA-48998FB7D3ED">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRODUCT_GROUPS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="1CAF0083-0BDA-2E76-8530-C8BEA1E197B1">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRODUCT_GROUPS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F04A8F67-CF45-21D2-E231-557AED53F67E" name="PRODUCT_GROUPS_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PRODUCT_GROUPS_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:02 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DE515ED-1CD8-0988-F5DA-48998FB7D3ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF0E1E6B-8752-87D5-490F-6354A348FA89" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="PRODUCT_GROUPS_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PRODUCT_GROUPS_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DE515ED-1CD8-0988-F5DA-48998FB7D3ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

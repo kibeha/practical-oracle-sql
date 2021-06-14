@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15CCC3E3-A72E-7838-42FD-9F5BA1936457" containerWithKeyObject="3E2523AD-EEFF-C205-83D3-199C5C8A33F2" localFKIndex="BE57E504-E823-222E-B558-7DFBF351B9B1" name="PACKING_RELATIONS_PARENT_FK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PACKING_RELATIONS_PARENT_FK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<referredTableLongName>PRACTICAL.PACKAGING</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>508CF9FF-0D31-5F31-D5BE-20FB3F7B6B66</referredTableID>
+<keyObject>B2E23799-40FC-9674-26B6-BE898FA92108</keyObject>
+<referredKeyID>B2E23799-40FC-9674-26B6-BE898FA92108</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

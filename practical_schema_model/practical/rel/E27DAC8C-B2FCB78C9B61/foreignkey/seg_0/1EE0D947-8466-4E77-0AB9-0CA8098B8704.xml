@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1EE0D947-8466-4E77-0AB9-0CA8098B8704" containerWithKeyObject="EE5CFA8B-AF5C-FFE1-57BC-873C7D2F0084" localFKIndex="006FC62B-8ABF-A370-FB13-50088AB86F4B" name="TICKER_SYMBOL_FK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>TICKER_SYMBOL_FK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<referredTableLongName>PRACTICAL.STOCK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3BEDBE4F-1CDC-3020-00F3-5DA6214EEC7D</referredTableID>
+<keyObject>61C5FDBB-A34C-CE93-335D-4CD73129FD4D</keyObject>
+<referredKeyID>61C5FDBB-A34C-CE93-335D-4CD73129FD4D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SYMBOL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

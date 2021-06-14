@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E0C06F2-2BF9-AE71-E2BF-2CE63A03E445" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="WEB_PAGE_VISITS">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>WEB_PAGE_VISITS</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:57 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLIENT_IP" id="26FC5D11-9EFA-64D2-B591-CCC823676699">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>WEB_PAGE_VISITS</sourceObjSchema>
+<sourceObjName>CLIENT_IP</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISIT_TIME" id="0F1C509A-FA0E-8CC5-E07F-FA50C3AF9514">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>WEB_PAGE_VISITS</sourceObjSchema>
+<sourceObjName>VISIT_TIME</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APP_ID" id="70AB495D-C09B-D531-3D1A-F5B2A7C083AC">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>WEB_PAGE_VISITS</sourceObjSchema>
+<sourceObjName>APP_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB2D9909-4601-B831-5EC2-4274933226EA" referredColumn="3AAA383A-12FE-F1EC-457C-43583F09451C"/>
+</associations>
+</Column>
+<Column name="PAGE_NO" id="0426D4F7-5C95-DB94-7864-3C54117E5D54">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>WEB_PAGE_VISITS</sourceObjSchema>
+<sourceObjName>PAGE_NO</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB2D9909-4601-B831-5EC2-4274933226EA" referredColumn="F01970BD-AD87-8E86-F875-F87C51D5C19A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7149C946-5325-D8CC-D5D3-BD08F875892C" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="WEB_PAGE_VISITS_PAGE_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>WEB_PAGE_VISITS_PAGE_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70AB495D-C09B-D531-3D1A-F5B2A7C083AC"/>
+<colUsage columnID="0426D4F7-5C95-DB94-7864-3C54117E5D54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C165EEE-3BE9-E37C-F806-999E348ED861" name="WEB_PAGE_VISITS_PAGE_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70AB495D-C09B-D531-3D1A-F5B2A7C083AC"/>
+<colUsage columnID="0426D4F7-5C95-DB94-7864-3C54117E5D54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

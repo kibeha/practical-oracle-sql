@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C94CD1FD-4D1C-F816-CB96-ACE5868D16F5" containerWithKeyObject="123B93F7-8BF9-C588-3B04-E0C1582DF64E" localFKIndex="B3C5E3F5-EE18-2DF3-6615-9185A4E6F6BC" name="PICKING_LOG_PICKING_LINE_FK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LOG_PICKING_LINE_FK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<referredTableLongName>PRACTICAL.PICKING_LINE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>01A16A98-430A-D5F4-E027-319047653E3B</referredTableID>
+<keyObject>3D5AF380-7356-8FE7-D634-D7E096B2A01D</keyObject>
+<referredKeyID>3D5AF380-7356-8FE7-D634-D7E096B2A01D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PICKLIST_ID,LINE_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

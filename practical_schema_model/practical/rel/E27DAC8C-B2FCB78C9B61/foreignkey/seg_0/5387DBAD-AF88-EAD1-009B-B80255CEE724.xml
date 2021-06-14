@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5387DBAD-AF88-EAD1-009B-B80255CEE724" containerWithKeyObject="123B93F7-8BF9-C588-3B04-E0C1582DF64E" localFKIndex="1D21B523-E4A2-BDEF-04B2-B1FBC1A1DC0F" name="PICKING_LOG_LOCATION_FK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>PICKING_LOG_LOCATION_FK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<referredTableLongName>PRACTICAL.LOCATIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99D197F4-7E3C-7FF8-6EDC-888C3047CEAE</referredTableID>
+<keyObject>3084E490-372B-1A26-8A1E-5B03C19B2B7C</keyObject>
+<referredKeyID>3084E490-372B-1A26-8A1E-5B03C19B2B7C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3754152-A1E8-63AB-851C-3332DC63E335" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="INVENTORY">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>INVENTORY</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:36:46 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5B5A627F-A333-E915-4904-B386F367EF8B">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>INVENTORY</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_ID" id="21C39B9F-8835-F435-1A99-B0ADF405C1CB">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>INVENTORY</sourceObjSchema>
+<sourceObjName>LOCATION_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E59ACDC-2ECF-8D0F-439F-5848437B476A" referredColumn="E66BC08F-35BD-7E2C-6B27-74F9977F0593"/>
+</associations>
+</Column>
+<Column name="PRODUCT_ID" id="2F6F9693-DF85-3709-9A12-66F92CC63687">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>INVENTORY</sourceObjSchema>
+<sourceObjName>PRODUCT_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D3393A9-9587-B3D2-0DE6-D785CAE51EBC" referredColumn="28B6BDC8-7604-FDDC-20EC-F2255582695B"/>
+</associations>
+</Column>
+<Column name="PURCHASE_ID" id="9C917B29-D5AA-D5CD-0850-268642A5C059">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>INVENTORY</sourceObjSchema>
+<sourceObjName>PURCHASE_ID</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4D091FD-1935-8038-D76C-6C3CD01B3319" referredColumn="6A78D95B-0BB9-1AB4-A4B5-D4A92298CEAF"/>
+</associations>
+</Column>
+<Column name="QTY" id="EBE3DABD-F49A-7C16-25E2-993D7A672483">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>INVENTORY</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:37:58 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC36C77A-3E6B-E461-107F-31A2DA4BF48C" name="INVENTORY_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>INVENTORY_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:01 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B5A627F-A333-E915-4904-B386F367EF8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D713DCAF-E8F2-0D68-E9E2-70944725F021" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="INVENTORY_LOCATION_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>INVENTORY_LOCATION_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21C39B9F-8835-F435-1A99-B0ADF405C1CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6928FFA-0A46-3928-A32D-F0A22A002DEE" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="INVENTORY_PK">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>INVENTORY_PK</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B5A627F-A333-E915-4904-B386F367EF8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="272655D3-007E-8A8C-EBBA-35EAD56DEF9B" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="INVENTORY_PRODUCT_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>INVENTORY_PRODUCT_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F6F9693-DF85-3709-9A12-66F92CC63687"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5D50F0D-C18E-A236-EF11-4223FD5CBF23" schemaObject="973881B1-88D0-CECF-5FAE-879DE82F9CF4" name="INVENTORY_PURCHASE_FK_IX">
+<sourceConnName>practical on orcl 12.2</sourceConnName>
+<sourceObjSchema>PRACTICAL</sourceObjSchema>
+<sourceObjName>INVENTORY_PURCHASE_FK_IX</sourceObjName>
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:00 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C917B29-D5AA-D5CD-0850-268642A5C059"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E64A0572-B88D-F7B7-420F-2AC0987325D7" name="INVENTORY_LOCATION_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21C39B9F-8835-F435-1A99-B0ADF405C1CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B8EDF37-159B-E085-C9A7-96DE67BFDFC7" name="INVENTORY_PRODUCT_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F6F9693-DF85-3709-9A12-66F92CC63687"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7ECBA6A-D061-C77A-A107-6C0EFBDF575E" name="INVENTORY_PURCHASE_FK">
+<createdBy>kbh</createdBy>
+<createdTime>2019-12-05 21:38:03 UTC</createdTime>
+<ownerDesignName>practical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C917B29-D5AA-D5CD-0850-268642A5C059"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
